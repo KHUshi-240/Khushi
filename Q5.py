@@ -1,4 +1,4 @@
-# Write a Python program using the requests module to send a GET request to a given below url API endpoint and print the
+# requests module to send a GET request to a given below url API endpoint and print the
 #  a) Latitude
 #  b) Longitude
 #  c) timestamp
@@ -30,8 +30,3 @@ else:
     # Print an error message if the request was not successful
     print(f"Failed to retrieve data: {response.status_code}")
 
-# OUTPUT
-
-# Latitude: -43.0004
-# Longitude: -62.1206
-# Timestamp: 1720107690
